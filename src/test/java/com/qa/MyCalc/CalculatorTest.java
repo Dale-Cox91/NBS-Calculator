@@ -25,4 +25,10 @@ public class CalculatorTest {
 		int result = calculator.multiply(4,2);
 		Assert.assertEquals(8, result);
 	}
+	@Test
+	public void DivideTwoNumbersTest() {
+		Calculator calculator = new Calculator();
+		int result = calculator.divide(4,2);
+		Assert.assertEquals(2, result);
+	}
 }
